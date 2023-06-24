@@ -436,9 +436,27 @@
             </li>
           </ul>
         </div>
+        <div class="fform-wrap">
+          <p class="fform-title">Subscribe</p>
+          <form action="" class="fform">
+            <label for="">
+              <input
+                type="email"
+                name="subscribe"
+                placeholder="E-mail"
+                class="fform-input"
+              />
+            </label>
+            <button type="submit" class="fform-btn">
+              Subscribe<svg class="fform-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
-<!-- *============================ MODAL WINDOW ============================ -->
+    <!-- *============================ MODAL WINDOW ============================ -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="mbtn" type="button" data-modal-close>
@@ -446,26 +464,25 @@
             <use href="./images/icons.svg#icon-mbtn"></use>
           </svg>
         </button>
-       
-        <form name="Leave your contacts and we will call you back" action="" class="feedback-data">
+
+        <form
+          name="Leave your contacts and we will call you back"
+          action=""
+          class="feedback-data"
+        >
           <h2>Leave your contacts and we will call you back</h2>
-  
-      
+
           <div>Name</div>
-    <input type="text" name="name">
-    <div>Phone</div>
-    <input type="phone" name="phone">
-     <div>Email</div>
-    <input type="email" name="email">
-    <div>Comments</div>
-    <textarea name="comments">Text input</textarea>
-    
-       
-     <p> <button type="submit">Send</button> </p>
+          <input type="text" name="name" />
+          <div>Phone</div>
+          <input type="phone" name="phone" />
+          <div>Email</div>
+          <input type="email" name="email" />
+          <div>Comments</div>
+          <textarea name="comments">Text input</textarea>
+
+          <p><button type="submit">Send</button></p>
         </form>
-
-
-
       </div>
     </div>
     <script src="./js/modal.js"></script>
