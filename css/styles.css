@@ -579,11 +579,15 @@ body {
   display: flex;
   gap: 24px;
 }
+.fform-label{
+  
+}
 
 .fform-input {
   width: 264px;
   height: 40px;
   background-color: transparent;
+  border: 1px solid var(--white);
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
