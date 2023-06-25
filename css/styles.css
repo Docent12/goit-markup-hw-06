@@ -875,7 +875,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.privacy-chek:checked + .policy-title {
+.privacy-chek:checked + .chekbox-label > .policy-title {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
