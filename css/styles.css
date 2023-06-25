@@ -856,7 +856,10 @@ body {
   margin-bottom: 24px;
 }
 
-.privacy-chek {
+.privacy-chek:checked + .policy-title {
+  border: none;
+  background-color: var(--ocean);
+  fill: var(--cloud);
 }
 
 .chekbox-label {
@@ -877,6 +880,24 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+.policy-link {
+  color: var(--iris);
+}
+.btn-submint {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--iris);
+  border: none;
+  border-radius: 4px;
 }
 
 .mbtn {
