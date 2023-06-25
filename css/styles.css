@@ -898,8 +898,14 @@ body {
   background-color: var(--iris);
   border: none;
   border-radius: 4px;
-  margin: auto;
+  margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-submint:focus {
+  background-color: var(--ocean);
+}
+.btn-submint:hover {
+  background-color: var(--ocean);
 }
 
 .mbtn {
