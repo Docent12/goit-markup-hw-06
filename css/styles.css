@@ -814,6 +814,7 @@ body {
 }
 .name-input:focus {
   border-color: var(--iris);
+  /* fill: var(--iris); */
 }
 .name-input:focus + .name-icon {
   fill: var(--iris);
@@ -825,10 +826,6 @@ body {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.name-icon:focus {
-  fill: var(--iris);
 }
 
 .comment-wrap {
@@ -879,6 +876,10 @@ body {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
+}
+
+.privacy-chek:focus-visible + .chekbox-label > .policy-title {
+  border-color: var(--iris);
 }
 
 .policy-link {
