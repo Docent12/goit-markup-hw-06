@@ -104,9 +104,7 @@ body {
 
 /** ================== HEADER =================== */
 .header {
-  border-bottom: 1px solid var(--cornflower);
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  
 }
 .header .container {
   display: flex;
@@ -115,6 +113,10 @@ body {
   height: 72px;
   padding: 0 15px;
   margin: 0 auto;
+  border-bottom: 1px solid var(--cornflower);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 .header-navi {
   display: flex;
